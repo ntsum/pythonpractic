@@ -20,3 +20,8 @@ mytuple = (1, 2, 3)
 mylist = [1, 2, 3]
 print(len(mytuple))
 mytuple.count(1)
+
+myset = set()
+myset.add(1)
+print(myset)
+# sets only contain unique values no repeats

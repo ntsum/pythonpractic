@@ -7,3 +7,7 @@ print(len(other_list))
 
 mylist = ['one', 'two', 'three']
 print(mylist[0])
+
+x = open('test.txt', 'w')
+x.write('Hello World')
+x.close()
