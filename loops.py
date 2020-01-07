@@ -1,3 +1,4 @@
+from random import shuffle
 mystring = "Hello World"
 
 for letter in mystring:
@@ -22,3 +23,12 @@ else:
 dog = ['walnut', 'cashew', 'oscar', 'sophie', 'rocky']
 dog.append('lulu isnt a dog')
 print(dog)
+
+yawning = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]
+shuffle(yawning)
+print(yawning)
+
+input('Enter a number:')
+# input always accepts every input as a string transform by float or int for number or decimal
+
+# list comprehensions
